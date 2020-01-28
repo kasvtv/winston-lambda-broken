@@ -1,0 +1,17 @@
+service: winstontest
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  profile: default
+  stage: test
+  region: eu-west-1
+  
+  timeout: 120
+  memorySize: 256
+  
+functions:
+  differentInstance:
+    handler: src/differentInstance.handler
+  sameInstance:
+    handler: src/sameInstance.handler
