@@ -1,0 +1,1 @@
+https://github.com/winstonjs/winston/issues/1757
