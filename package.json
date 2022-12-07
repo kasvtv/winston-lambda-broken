@@ -13,6 +13,6 @@
     "winston-transport": "^4.3.0"
   },
   "devDependencies": {
-    "serverless": "^1.61.3"
+    "serverless": "^3.25.1"
   }
 }
